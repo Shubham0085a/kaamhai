@@ -3,13 +3,13 @@ import React from "react";
 const Contact = () => {
   return (
     <section>
-      <div className="my-24 mx-14 flex flex-row items-center justify-around">
-        <div className="w-1/2">
+      <div className="my-24 lg:mx-14 flex flex-col lg:flex-row items-center justify-around">
+        <div className="w-auto lg:w-1/2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
-            width="944"
-            height="531"
+            width="100%"
+            height="100%"
             viewBox="0 0 944 531"
             fill="none"
           >
@@ -82,15 +82,15 @@ const Contact = () => {
             </defs>
           </svg>
         </div>
-        <div className="w-1/3 space-y-10">
+        <div className="lg:w-1/3  mx-5 lg:mx-0 space-y-4 mt-5 lg:mt-0 lg:space-y-10">
             <div>
-                <p className="font-extrabold text-6xl leading-[4rem]">We’ll Help You ​Hire & Manage Smarter</p>
+                <p className="font-extrabold text-3xl lg:text-6xl lg:leading-[4rem]">We’ll Help You ​Hire & Manage Smarter</p>
             </div>
             <div>
-                <p className="text-2xl leading-10">Kaamhai offers an innovative platform for efficient hiring and workforce management, providing verified profiles and advanced tools to help you find top talent and manage your team effectively.</p>
+                <p className="text-xl lg:text-2xl leading-10">Kaamhai offers an innovative platform for efficient hiring and workforce management, providing verified profiles and advanced tools to help you find top talent and manage your team effectively.</p>
             </div>
             <div>
-                <button className="bg-black w-64 h-20 font-semibold rounded-lg text-3xl text-white">Contact Us</button>
+                <button className="bg-black w-48 lg:w-64 h-12 lg:h-20 font-semibold rounded-lg text-xl lg:text-3xl text-white">Contact Us</button>
             </div>
         </div>
       </div>

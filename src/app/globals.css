@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.container .ellipse .ellipseBx {
+/* .container .ellipse .ellipseBx {
     transition: 0.5s;
     transform: rotate(cals(360deg/10 * var(--i)));
     transform-origin: 300px;
-}
+} */

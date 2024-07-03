@@ -13,25 +13,30 @@ import Image from "next/image";
 const Get_ready = () => {
   return (
     <main>
-      <div className="mx-14 h-auto flex flex-row items-center justify-around">
-        <div className="space-y-10 w-1/2">
-          <div>
-            <p className="font-extrabold text-6xl">
+      <div className="mx-5 lg:mx-14 h-auto flex flex-col lg:flex-row items-center justify-around">
+        <div className="space-y-5 lg:space-y-10 lg:w-1/2">
+          <div className="mb-5">
+            <p className="font-extrabold text-center lg:text-start text-3xl lgtext-6xl">
               Get ready to set a<br /> Benchmark with us
             </p>
           </div>
           <div>
-            <p className="text-3xl">
-              Upgrade your hiring process with Kaamhai. Designed
-              <br /> with verified databases
+            <p className="text-xl text-center lg:text-start lg:text-3xl">
+              Upgrade your hiring process with Kaamhai. Designed with verified databases
             </p>
           </div>
-          <div className="flex flex-row space-x-5">
-            <div>
-              <Image src={PlayStore} alt="Play store" width={267} />
-            </div>
-            <div>
-              <Image src={AppStore} alt="App store" width={267} />
+          <div className="flex flex-col space-y-5 lg:flex-row lg:space-x-5">
+            <div className="flex flex-row space-x-5">
+              <div className="w-40 lg:w-[16.70rem]">
+                <a href="">
+                  <Image src={PlayStore} alt="Play store" />
+                </a>
+              </div>
+              <div className="w-40 lg:w-[16.70rem]">
+                <a href="">
+                  <Image src={AppStore} alt="App store" />
+                </a>
+              </div>
             </div>
             <div className="flex items-center">
               <div className="flex -space-x-4 rtl:space-x-reverse">
@@ -65,12 +70,12 @@ const Get_ready = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="w-[23rem] lg:w-[45rem]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
-            width="789"
-            height="700"
+            width="100%"
+            height="100%"
             viewBox="300 400 789 700"
             fill="none"
           >

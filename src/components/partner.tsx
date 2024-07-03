@@ -7,16 +7,16 @@ import Card from "@/app/assets/card.png";
 const Partner = () => {
   return (
     <section>
-      <div className="flex flex-row items-end h-auto justify-center gap-20">
+      <div className="flex flex-col lg:flex-row items-center lg:items-end h-auto justify-center gap-20">
         <div className="flex items-end justify-center">
-          <div className=" z-10">
-            <Image src={CertificateImg} alt="" width={878} />
+          <div className="w-[20rem] lg:w-[55rem] z-10">
+            <Image src={CertificateImg} alt=""/>
           </div>
-          <div className=" absolute left-0">
+          <div className="absolute left-0 h-auto w-[25rem] lg:w-[65rem]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="1158"
-              height="723"
+              width="100%"
+              height="100%"
               viewBox="0 0 1219 723"
               fill="none"
             >
@@ -101,11 +101,11 @@ const Partner = () => {
             </svg>
           </div>
         </div>
-        <div className=" absolute z-20 -mb-40">
-            <Image src={Card} alt="" width={586}/>
+        <div className=" absolute z-20 mb-80 -mr-36 lg:mr-0 lg:-mb-40 w-[15rem] lg:w-[36.5rem]">
+            <Image src={Card} alt=""/>
         </div>
-        <div className="flex flex-col items-start justify-end">
-          <div>
+        <div className="flex flex-col items-start mt-10 justify-end">
+          <div className="m-5">
             <div>
               <p className="font-bold text-3xl">Partner with us,</p>
             </div>

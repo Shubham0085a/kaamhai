@@ -17,13 +17,13 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <section>
-      <header className="inset-x-0 top-0 z-50 my-10 mx-12 bg-[#FFCB08] rounded-full">
+      <header className="inset-x-0 top-0 z-50 my-5 lg:my-10 mx-4 lg:mx-12 bg-[#FFCB08] rounded-full">
         <nav
-          className="flex items-center justify-between p-6 ml-12 lg:px-8"
+          className="flex items-center justify-between py-2 px-6 lg:p-6 lg:ml-12 lg:px-8"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="#" className="lg:-m-1.5 lg:p-1.5">
               <span className="sr-only">Your Company</span>
               <Image src={logo} alt="logo" height={104} width={263} />
             </a>
@@ -51,7 +51,8 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <div className="bg-white h-14 w-96 flex flex-row items-center justify-end rounded-full">
-              <div className="bg-black w-32 h-full rounded-full flex flex-row items-center font-medium space-x-2 justify-center">
+              <button className="bg-black w-32 h-full rounded-full">
+              <div className="flex flex-row items-center font-medium space-x-2 justify-center">
                 <div className="text-white">Search</div>
                 <div>
                   <svg
@@ -72,6 +73,7 @@ const Navbar = () => {
                   </svg>
                 </div>
               </div>
+              </button>
             </div>
           </div>
         </nav>
@@ -108,14 +110,6 @@ const Navbar = () => {
                       {item.name}
                     </a>
                   ))}
-                </div>
-                <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Log in
-                  </a>
                 </div>
               </div>
             </div>

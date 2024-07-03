@@ -3,15 +3,15 @@ import React from "react";
 const Operations = () => {
   return (
     <section>
-      <div className="mt-20 mx-14 flex flex-col items-center justify-center space-x-20">
+      <div className="mt-20 mx-5 lg:mx-14 flex flex-col items-center justify-center space-x-20">
         <div>
-          <h1 className="font-extrabold text-6xl leading-[5rem]">
+          <h1 className="font-extrabold text-3xl lg:text-6xl lg:leading-[5rem]">
             Simplify Your Business
             <br /> Operations with Ease!
           </h1>
         </div>
-        <div className="my-32 flex flex-row space-x-32">
-          <div className="flex flex-col items-center space-y-12">
+        <div className="my-10 lg:my-32 flex flex-row flex-wrap space-y-10 lg:space-y-0 lg:space-x-32">
+          <div className="flex flex-col items-center space-y-6 lg:space-y-12">
             <div className="w-52 h-52 bg-[#FFCB08] rounded-full flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
