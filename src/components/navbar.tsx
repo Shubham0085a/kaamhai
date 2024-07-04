@@ -51,6 +51,7 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <div className="bg-white h-14 w-96 flex flex-row items-center justify-end rounded-full">
+              <input type="text" placeholder="Search..." id="search" className=" focus:outline-none"/>
               <button className="bg-black w-32 h-full rounded-full">
               <div className="flex flex-row items-center font-medium space-x-2 justify-center">
                 <div className="text-white">Search</div>

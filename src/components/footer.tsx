@@ -61,19 +61,31 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-around space-y-10 lg:space-y-0 lg:space-x-40">
             <div className="space-y-3 lg:space-y-5">
               <div>
-                <p>
-                  <a href="">Our Services</a>
-                </p>
+              <Link
+                    href="/privacy"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    Privacy Policy
+                  </Link>
               </div>
               <div>
-                <p>
-                  <a href="">Privacy policy</a>
-                </p>
+              <Link
+                    href="/refund"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    Refund Policy
+                  </Link>
               </div>
               <div>
-                <p>
-                  <a href="">Terms & conditions</a>
-                </p>
+              <Link
+                    href="/termsconditions"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    Terms & Conditions
+                  </Link>
               </div>
             </div>
             <div className="space-y-3 lg:space-y-5">
