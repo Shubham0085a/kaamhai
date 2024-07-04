@@ -12,6 +12,7 @@ const RefundPolicy = () => {
         refund policy carefully to understand your rights and the procedures for
         obtaining a refund.
       </p>
+      <div>
       <p className="font-bold text-2xl">Subscription Models</p>
       <p className="text-xl">
         Monthly and Yearly Plans: Users can subscribe to Kaamhai on a monthly or
@@ -19,6 +20,8 @@ const RefundPolicy = () => {
         Offers: Users can sign up for free and access basic features. Enhanced
         features are available through paid subscriptions.
       </p>
+      </div>
+      <div>
       <p className="font-bold text-2xl">Refund Eligibility</p>
       <p className="text-lg">
         <span className="text-xl font-semibold">Conditions for Refunds:</span>{" "}
@@ -30,6 +33,8 @@ const RefundPolicy = () => {
         Users must request a refund within 3 days of purchasing the subscription
         to be eligible for a full refund.
       </p>
+      </div>
+      <div>
       <p className="font-bold text-2xl">Partial Refunds</p>
       <p className="text-lg">
         <span className="text-xl font-semibold">
@@ -38,6 +43,8 @@ const RefundPolicy = () => {
         Kaamhai does not offer partial refunds for unused portions of a
         subscription period.
       </p>
+      </div>
+      <div>
       <p className="font-bold text-2xl">Cancellation</p>
       <p className="text-lg">
         <span className="text-xl font-semibold">Cancellation Process:</span> To
@@ -47,6 +54,8 @@ const RefundPolicy = () => {
       <p className="text-lg">
         Notice Period: A 3-day notice period is required for cancellation.
       </p>
+      </div>
+      <div>
       <p className="font-bold text-2xl">Payment Methods</p>
       <p className="text-lg">
         <span className="text-xl font-semibold">Accepted Payment Methods:</span>{" "}
@@ -57,12 +66,16 @@ const RefundPolicy = () => {
         Refunds will be processed using the original payment method used for the
         purchase.
       </p>
+      </div>
+      <div>
       <p className="font-bold text-2xl">Exceptions</p>
       <p className="text-lg">
         <span className="text-xl font-semibold">Non-Refundable Scenarios:</span>{" "}
         Refunds are not provided for promotional subscriptions or if there is
         any abuse of the refund policy.
       </p>
+      </div>
+      <div>
       <p className="font-bold text-2xl">Support and Dispute Resolution</p>
       <p className="text-lg">
         <span className="text-xl font-semibold">Requesting a Refund:</span>{" "}
@@ -85,6 +98,7 @@ const RefundPolicy = () => {
         currently operates and is functional only in India. All refund policies
         comply with Indian regulations.
       </p>
+      </div>
       <p className="text-lg">
         <span className="text-xl font-semibold">Note:</span> This refund policy
         is subject to change at the discretion of OFFBEAT TECHNET PRIVATE
